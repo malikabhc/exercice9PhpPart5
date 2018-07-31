@@ -16,8 +16,8 @@
           '62' => 'Pas-de-Calais',
           '80' => 'Somme');
         // Afficher le tableau à l'aide d'une boucle foreach (plus adaptée aux tableaux associatifs)
-        foreach ($region as $key => $element) {
-          echo $key . ' ' . $element . ' ';
+        foreach ($region as $element) {
+          echo $element . ' ';
         }
       ?>
     </p>
